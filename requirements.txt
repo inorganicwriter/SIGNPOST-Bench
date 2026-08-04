@@ -1,0 +1,24 @@
+requests>=2.31.0,<3.0
+websocket-client>=1.7.0,<2.0
+openai>=1.10.0,<2.0
+torch>=2.0.0,<3.0
+pillow>=10.0.0,<11.0
+matplotlib>=3.7.0,<4.0
+pandas>=2.0.0,<3.0
+seaborn>=0.12.0,<1.0
+easyocr>=1.7.0,<2.0
+tqdm>=4.65.0,<5.0
+numpy>=1.24.0,<2.0
+opencv-python-headless>=4.8.0,<5.0
+google-genai>=1.0.0,<2.0  # Google Gemini API SDK (for attack generation)
+python-dotenv>=1.0.0,<2.0  # For .env file support in config.py
+
+# Scientific computing (used by analysis/mcrs_validation.py, statistical_validation.py)
+scipy>=1.10.0,<2.0
+
+# Testing
+pytest>=7.0.0,<9.0
+pytest-asyncio>=0.23.0,<1.0
+
+# Paper figure generation (optional: only needed to regenerate paper figures)
+# cartopy>=0.22.0,<0.26.0  # see paper/figures/requirements.txt

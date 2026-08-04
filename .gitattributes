@@ -1,0 +1,110 @@
+# =============================================================================
+# Default: auto-detect text/binary, normalize text to LF in the repo
+# =============================================================================
+* text=auto eol=lf
+
+# =============================================================================
+# Text files — explicit LF (source, config, data, docs)
+# =============================================================================
+# Python
+*.py     text eol=lf
+
+# Web / sites (TypeScript, JavaScript, CSS, HTML)
+*.ts     text eol=lf
+*.tsx    text eol=lf
+*.js     text eol=lf
+*.jsx    text eol=lf
+*.mjs    text eol=lf
+*.cjs    text eol=lf
+*.css    text eol=lf
+*.html   text eol=lf
+
+# Config
+*.toml   text eol=lf
+*.yaml   text eol=lf
+*.yml    text eol=lf
+*.ini    text eol=lf
+*.env    text eol=lf
+
+# Data (tabular / JSON)
+*.json   text eol=lf
+*.jsonl  text eol=lf
+*.tsv    text eol=lf
+*.csv    text eol=lf
+
+# Docs
+*.md     text eol=lf
+*.txt    text eol=lf
+
+# Shell
+*.sh     text eol=lf
+
+# LaTeX (paper-AAAI/)
+*.tex    text eol=lf
+*.bib    text eol=lf
+*.sty    text eol=lf
+*.bst    text eol=lf
+*.bbl    text eol=lf
+*.cls    text eol=lf
+
+# SVG is XML text
+*.svg    text eol=lf
+
+# =============================================================================
+# Binary files — no normalization, no diff
+# =============================================================================
+# Raster images
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.webp   binary
+*.gif    binary
+*.bmp    binary
+*.tiff   binary
+*.tif    binary
+*.ico    binary
+
+# Vector / document
+*.pdf    binary
+*.docx   binary
+*.pptx   binary
+*.xlsx   binary
+
+# Fonts
+*.woff   binary
+*.woff2  binary
+*.ttf    binary
+*.otf    binary
+
+# Model weights (referenced by run_pipeline.py --upscale-model)
+*.pth    binary
+*.pt     binary
+*.safetensors binary
+*.onnx   binary
+*.bin    binary
+
+# Native binaries / archives (defensive — usually gitignored)
+*.exe    binary
+*.dll    binary
+*.so     binary
+*.dylib  binary
+*.node   binary
+*.wasm   binary
+*.zip    binary
+*.tar    binary
+*.gz     binary
+*.7z     binary
+
+# =============================================================================
+# Lockfiles — keep as-is, do not normalize (avoids noisy cross-platform diffs)
+# =============================================================================
+*.lock   -text
+pnpm-lock.yaml -text
+package-lock.json -text
+yarn.lock -text
+
+# =============================================================================
+# Generated / export artifacts — no diff noise
+# =============================================================================
+*.snap   -text
+*.map    -text

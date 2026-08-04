@@ -1,0 +1,127 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Node.js
+node_modules/
+.next/
+.openai/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets (never commit API keys)
+.env
+.env.*
+!.env.example
+secrets.txt
+*.pem
+*.key
+
+# Data & images (large files — distributed via HF / server)
+data/
+input_images/
+output_images/
+result/
+results/
+backups/
+misc/
+subsets/
+analysis/subsets/
+
+# Generated & cached analysis outputs
+*.bak
+*.backup
+*.old
+geocode_cache.json
+geocode_cache_incident_*.json
+geocode_cache_rebuild*.json
+geocode_rebuild_audit.json
+parsed_results.json
+parsed_results_alpha_sensitivity.json
+parsed_results_threshold_dist.json
+text_dependency_analysis.json
+tfr_tau_sensitivity.json
+exp234_updated_results.json
+api_diagnosis_results.json
+paper/computed_results.json
+paper/table1_data.json
+paper/im2gps3kresults/
+paper/yfcc4kresults/
+
+# Result files (inside data/)
+data/**/*.jsonl
+
+# PowerPoint
+*.pptx
+
+# Spreadsheet
+latest_standard_vlm_benchmark_suite.csv
+
+# Internal docs & notes
+Refactoring*.md
+EVALUATION_GUIDE.md
+paper_issues_to_fix.md
+SIGNPOST_*.md
+PROJECT_ANALYSIS.md
+
+# Model snapshots
+model_openrouter.txt
+model_siliconflow.txt
+model.txt
+
+# Ad-hoc scripts
+verify_models.py
+check_googlesv.py
+test_openrouter.py
+fetch_free_models.py
+dataset.txt
+
+# Editor
+.vscode/
+.idea/
+.codex
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+nohup.out
+
+# Test & temp
+.pytest_cache/
+.tmp/
+misc/tmp/
+# pnpm / npm caches stored under tmp/
+tmp/localappdata-sites/
+tmp/npm-cache-sites/
+tmp/pnpm-config-sites/
+tmp/pnpm-home-sites/
+
+# LaTeX compilation artifacts
+*.aux
+*.bbl
+*.blg
+*.out
+*.toc
+*.lot
+*.lof
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Paper & docs (distributed separately)
+paper/
+paper-glm/
+docs/
