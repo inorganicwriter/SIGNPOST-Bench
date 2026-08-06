@@ -186,8 +186,9 @@ If you use SIGNPOST-Bench in your research, please cite:
 @article{li2026signpost,
   title={SIGNPOST-Bench: Benchmarking Text--Vision Conflict Resolution in Multimodal Large Language Models},
   author={Li, Sirun and Liu, Minghao and Dai, Ling and Li, Yong and Lyu, Haoxin and Zhou, Junting and Zhang, Fan},
-  journal={arXiv preprint},
-  year={2026}
+  journal={arXiv preprint arXiv:2608.04244},
+  year={2026},
+  url={https://arxiv.org/abs/2608.04244}
 }
 ```
 
