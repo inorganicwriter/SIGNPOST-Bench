@@ -1,6 +1,6 @@
 # *SIGNPOST-Bench*: Benchmarking Text–Vision Conflict Resolution in Multimodal Large Language Models
 
-[📖 ArXiv](https://arxiv.org/abs/XXXX.XXXXX) | [🐙 GitHub](https://github.com/inorganicwriter/SIGNPOST-Bench) | [🤗 Dataset](https://huggingface.co/datasets/inorganicwriter/SIGNPOST-Bench)
+[📖 ArXiv](https://arxiv.org/abs/2608.04244) | [🐙 GitHub](https://github.com/inorganicwriter/SIGNPOST-Bench) | [🤗 Dataset](https://huggingface.co/datasets/inorganicwriter/SIGNPOST-Bench)
 
 This repository contains the benchmark construction, evaluation, and analysis code for the paper *"SIGNPOST-Bench: Benchmarking Text–Vision Conflict Resolution in Multimodal Large Language Models"*.
 
