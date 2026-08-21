@@ -196,4 +196,4 @@ If you use SIGNPOST-Bench in your research, please cite:
 
 ## 📧 Contact
 
-Fan Zhang (corresponding author): fanzhanggis@pku.edu.cn
+Sirun Li (corresponding author): sirun_li@stu.pku.edu.cn
