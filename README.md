@@ -20,7 +20,7 @@ Each source image is transformed into a **counterfactual quintuplet** of **Origi
 | `Random` | Introduces unrelated readable text without a designated geographic target |
 | `Adversarial` | Injects a geographically conflicting cue; when geocodable, defines an injected target |
 
-SIGNPOST-Bench contains **5,111 counterfactual groups** and **25,555 image variants** (10,084 scene-text spans) from four datasets (IM2GPS3K, YFCC4K, Google Street View, Baidu Street View). We evaluate **20 MLLMs from seven providers** on all five variants of all groups, yielding 511,100 model–image evaluations under a shared prompt.
+SIGNPOST-Bench contains **5,111 counterfactual groups** and **25,555 image variants** (10,084 scene-text spans) from four datasets (IM2GPS3K, YFCC4K, Google Street View, Baidu Street View). The paper evaluates **20 MLLMs from seven providers** on all five variants of all groups, yielding 511,100 model–image evaluations under a shared prompt; the leaderboard below additionally reports one extended DeepSeek vision evaluation.
 
 ---
 
@@ -60,13 +60,14 @@ MCRS = 100 × C<sup>0.40</sup> × R<sup>0.60</sup>, where C is the model's Capab
 | 13 | Qwen3-VL-Plus | 56.67 | 38.13 | 73.80 |
 | 14 | GPT-5.4 | 54.77 | 36.14 | 72.27 |
 | 15 | Qwen3-VL-235B | 53.36 | 38.64 | 66.16 |
-| 16 | GPT-4o-mini | 50.68 | 31.89 | 69.02 |
-| 17 | Grok-4 | 44.05 | 32.62 | 53.82 |
-| 18 | Moonshot-32K-Vision | 41.47 | 25.59 | 57.22 |
-| 19 | Moonshot-128K-Vision | 41.46 | 25.77 | 56.92 |
-| 20 | Claude-Haiku-4.5 | 38.87 | 24.10 | 53.46 |
+| 16 | DeepSeek-V4-Flash-Vision | 52.81 | 36.70 | 67.30 |
+| 17 | GPT-4o-mini | 50.68 | 31.89 | 69.02 |
+| 18 | Grok-4 | 44.05 | 32.62 | 53.82 |
+| 19 | Moonshot-32K-Vision | 41.47 | 25.59 | 57.22 |
+| 20 | Moonshot-128K-Vision | 41.46 | 25.77 | 56.92 |
+| 21 | Claude-Haiku-4.5 | 38.87 | 24.10 | 53.46 |
 
-*Values match the paper's Table 1. Bold marks the best value per metric in the paper; here ranks are by MCRS.*
+*The first 20 rows match the paper's Table 1; DeepSeek is an extended evaluation. Bold marks the best value per metric in the paper; here ranks are by MCRS.*
 
 ---
 
